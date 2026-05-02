@@ -34,7 +34,11 @@ const resources = {
       "auth_error": "Authentication failed",
       "muraho": "Muraho!",
       "market_trends": "I've analyzed the recent Rwandan market trends. How can I help your business grow today?",
-      "rwanda_franc": "FRw"
+      "rwanda_franc": "FRw",
+      "summary": "Financial Summary",
+      "insight_positive": "Your business is showing healthy growth. Consider reinvesting your profits into high-margin products.",
+      "insight_neutral": "Your margins are stable, but there's room to optimize operational costs in the coming weeks.",
+      "insight_negative": "Expenses are tracking higher than usual. We recommend reviewing your inventory or supplier costs."
     }
   },
   fr: {
@@ -68,7 +72,11 @@ const resources = {
       "auth_error": "Échec de l'authentification",
       "muraho": "Bonjour !",
       "market_trends": "J'ai analysé les tendances du marché rwandais. Comment puis-je vous aider ?",
-      "rwanda_franc": "FRw"
+      "rwanda_franc": "FRw",
+      "summary": "Résumé Financier",
+      "insight_positive": "Votre entreprise affiche une croissance saine. Envisagez de réinvestir vos bénéfices dans des produits à marge élevée.",
+      "insight_neutral": "Vos marges sont stables, mais il est possible d'optimiser les coûts opérationnels dans les semaines à venir.",
+      "insight_negative": "Les dépenses sont plus élevées que d'habitude. Nous vous recommandons de revoir vos coûts d'inventaire ou de fournisseur."
     }
   },
   rw: {
@@ -102,7 +110,11 @@ const resources = {
       "auth_error": "Habaye ikibazo mu kwinjira",
       "muraho": "Muraho!",
       "market_trends": "Nasuzumye uko isoko ryo mu Rwanda rifashe uyu munsi. Nabafasha iki?",
-      "rwanda_franc": "FRw"
+      "rwanda_franc": "FRw",
+      "summary": "Incamake y'Imari",
+      "insight_positive": "Ubucuruzi bwanyu buragenda neza. Mutekereze gushora inyungu mu bintu bizana inyungu nyinshi.",
+      "insight_neutral": "Inyungu ntabwo ihinduka cyane, ariko mushobora kugabanya amafaranga akoreshwa mu mirimo ya buri munsi mu byumweru biri imbere.",
+      "insight_negative": "Ibisohoka biragaragara ko ari byinshi ugereranyije n'ibisanzwe. Turabagira inama yo gusuzuma amafaranga akoreshwa mu kugura ibicuruzwa cyangwa ababigurisha."
     }
   }
 };
