@@ -1,0 +1,24 @@
+{
+  "entities": {
+    "Transaction": {
+      "title": "Transaction",
+      "description": "Financial transaction record for a business.",
+      "type": "object",
+      "properties": {
+        "userId": { "type": "string", "description": "UID of the owner." },
+        "amount": { "type": "number", "description": "Transaction amount in FRw." },
+        "category": { "type": "string", "description": "Transaction category." },
+        "type": { "type": "string", "enum": ["income", "expense"] },
+        "description": { "type": "string", "description": "Optional description." },
+        "date": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "amount", "category", "type", "date"]
+    }
+  },
+  "firestore": {
+    "/transactions/{transactionId}": {
+      "schema": "Transaction",
+      "description": "User financial transactions."
+    }
+  }
+}
